@@ -24,7 +24,7 @@ body {
 .banner-content {
   position: absolute;
   width: 100%;
-  max-width: 50rem;
+  max-width: 45em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -36,6 +36,7 @@ body {
   font-weight: bold;
   line-height: 1.2;
   margin: 0;
+  max-width: 80%;
 }
 
 p {

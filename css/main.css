@@ -1,7 +1,81 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.5 Roboto, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  width: 100%;
+  max-width: 50rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+}
+
+p {
+  margin: .8rem 0;
+  font-size: 1.5rem;
+}
+
+.banner-image {
+  float: left;
+  width: 35%;
+  padding: 0 1rem;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner-text {
+  width: 65%;
+  text-align: left;
+  float: right;
+  padding: 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: .4em .75em;
+  border: 3px solid #333;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #333;
+}
+
+.btn:hover {
+  border-color: #000;
+  background-color: #000;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
